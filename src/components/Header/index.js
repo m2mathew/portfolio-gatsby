@@ -1,6 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
+// External Dependencies
+import React from 'react';
+import Link from 'gatsby-link';
 
+// Component Definition
 const Header = () => (
   <div
     style={{
@@ -28,6 +30,6 @@ const Header = () => (
       </h1>
     </div>
   </div>
-)
+);
 
 export default Header

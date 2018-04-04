@@ -6,7 +6,11 @@ import Header from '../components/Header'
 import './index.css'
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div
+    css={{
+      flex: 1,
+    }}
+  >
     <Helmet
       title="Mike Mathew | Portfolio"
       meta={[

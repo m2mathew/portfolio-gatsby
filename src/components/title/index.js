@@ -31,16 +31,10 @@ const h3Styles = {
 // Component Definition
 const Title = () => (
   <div css={titleStyles}>
-    <h1
-      className="text-left"
-      css={h1Styles}
-    >
+    <h1 css={h1Styles}>
       Mike Mathew
     </h1>
-    <h3
-      className="text-left"
-      css={h3Styles}
-    >
+    <h3 css={h3Styles}>
       front end web developer
     </h3>
   </div>

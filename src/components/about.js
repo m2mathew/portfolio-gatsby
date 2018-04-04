@@ -1,6 +1,19 @@
 // External Dependencies
 import React, { Component } from 'react';
-import { Modal } from 'react-bootstrap';
+
+// Local Variables
+const rootStyles = {
+	borderBottom: '6px solid gray',
+	fontSize: 20,
+	fontWeight: '200',
+	lineHeight: 50,
+	marginBottom: '1em',
+	padding: 'auto 1.5em',
+	paddingBottom: '1em',
+	width: '100%',
+  fontFamily: 'Open Sans, sans-serif',
+  maxWidth: '100%',
+};
 
 // Component Definition
 class About extends Component {
@@ -16,15 +29,9 @@ class About extends Component {
     this.setState({ showModal: true });
   }
 
-  componentDidMount() {
-    $('#myModal').on('shown.bs.modal', () => {
-      $('#myInput').focus()
-    });
-  }
-
   render() {
     return (
-      <div className="container about-box">
+      <div css={rootStyles} className="container about-box">
         <div className="row text-justify">
           <strong>HOW TO MAKE A FRONT END DEVELOPER NAMED MIKE </strong>
           <span>&bull; FALL IN LOVE WITH LEARNING </span>

@@ -5,6 +5,13 @@ html {
 }
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+	background-color: #fff;
+	font-size: 1.8em;
+	line-height: 1.6;
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
 }
 article,
 aside,

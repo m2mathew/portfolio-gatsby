@@ -5,9 +5,12 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
+    "gatsby-plugin-glamor": "^1.6.13",
     "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-plugin-react-next": "^1.0.11",
+    "gatsby": "^1.9.241",
+    "glamor": "^2.20.40",
     "react-bootstrap": "^0.32.1",
     "react-helmet": "^5.2.0"
   },
